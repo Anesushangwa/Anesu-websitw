@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>template litaral</title>
+</head>
+<body>
+     <main>
+         <h1>JavaScript notes</h1>
+    <p>Template literals are a special types of string that were introduced in ES6.
+        Template literals use the backtick character, ` , to deliminate the string, as shown
+        in the example below:
+    </p>
+        <p>`hello  world`</p>
+
+        <h4>Variables</h4>
+
+        <p>Variables are containers for storing data storing data values. and they are fours to declare and virable :</p>
+        <ul>
+            <ol>
+                using a var
+            </ol>
+            <ol>
+                using a let
+            </ol>
+            <ol>
+                using a cosnt
+            </ol>
+        </ul>
+
+       <h4>scope</h4>
+        <p>a scope determines the accessibility of a variables and they are two types os scope mainly the global scope and local scop</p>
+         <p>In short global scope declare outside of a block. and Locale scope are define inside a block.</p>
+         <p>example code for global scope // program to print a text <br>
+            let a = "hello"; <br>
+            
+            function greet () { <br>
+                console.log(a); <br>
+            } <br>
+            
+            greet(); // hello </p>
+
+        <h4>example of local scope</h4>
+     <p>// program showing local scope of a variable  br
+let a = "hello"; <br>
+
+function greet() { <br>
+    let b = "World" <br>
+    console.log(a + b); <br>
+}
+
+greet();</p>   
+
+
+ <h4>arrays,loops</h4>
+ <p>An array is an object that can store mu;tiple values at once for example const words = ['hello', 'world', 'welcome']; </p>
+ <p>you can create a array usi array literal[] eg const array1 = ["hello","anesu"] and we can also create an array using JavaScript's new keyword. example  const array2 = new Array("eat", "sleep"); </p>
+    
+ <h4>loops</h4>
+ <p>loops are used to reapeat a block for example if you want to show a massage 50 time then you can use a loop.</p>
+ <p>The syntax of the for loop is: 
+    for (initialExpression; condition; updateExpression) {
+        // for loop body
+    }</p>
+    <p>code example:
+        // program to display text 5 times   <br>
+const n = 5; <br>
+
+// looping from i = 1 to 5 <br>
+for (let i = 1; i <= n; i++) { <br>
+    console.log(`I love JavaScript.`);  <br>
+}
+    </p>
+
+    <h4>function</h4>
+    <p>A function is a block of code that performs a specific task.</p>
+
+     <p>The syntax to declare a function is: function nameOfFunction () {
+        // function body   
+    }</p>
+</main>
+    <script>
+         const names = ' Anesu shangwa, hazel shangwa'
+        const  name  = `My name 'is' ${names}`
+
+        console.log(name)
+    </script>
+    
+</body>
+</html>
