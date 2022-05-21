@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../week2/style.css"">
+    <title>OOP</title>
+</head>
+<body>
+    <main>
+    <h1>Notes  Debugging </h1>
+    <P>The process of searching for the errors and finding them is called debugging. <br>
+         Debugging JavaScript code is difficult because the browser doesn’t show any <br>
+         error message or any indication to the location of the error. Fortunately, all  <br>
+          modern browsers come with a built-in JavaScript debugger you can turn on and off. You <br>
+           can also set breakpoints and examine variables during the code execution. This tutorial explains <br>
+            different approaches to tackle the problem.</P>
+
+            <p><strong>The console.log() method</strong>working with the Browser Console. <br>
+                 You can easily open the console by right-clicking on the page, then selecting the <br>
+                 Inspect tab. Or you can use the shortcuts Ctrl+Shift+I or F12 for the same purpose. </p>
+
+                 <p>In JavaScript, the debugger keyword stops the execution and if available, calls the debugging function. <br>
+                     The keyword works the same way as setting a breakpoint. In the absence of debugging, the debugger statement has no effect. With <br>
+                     the debugger turned on, this code stops executing when it encounters a debugger statement.</p>
+    
+    </main>
+        <script>
+            const form = document.forms.search;
+             const input = form.elements.searchInput;
+input.addEventListener('focus', () => alert('focused'),
+ false);
+
+//  input.addEventListener('blur', () => alert('blurred'),
+//  false);
+//  input.addEventListener('change', () => alert('changed'),
+//  false);
+// const form = document.forms['search'];
+form.addEventListener ('submit', search, false);
+function search() {
+alert(' Form Submitted');
+event.preventDefault();
+}
+
+function search(event) {
+alert(`You Searched for: ${input.value}`);
+event.preventDefault();
+}
+
+
+
+
+// function search(event) {
+// alert('Form Submitted');
+// event.preventDefault();
+// }
+
+
+        </script>
+</body>
+</html>
