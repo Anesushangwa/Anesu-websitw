@@ -116,4 +116,3 @@ function countTasks() {
 
 
 
-//Part of this code is based in this tutorial: https://webdesign.tutsplus.com/tutorials/to-do-app-with-vanilla-javascript--cms-35258

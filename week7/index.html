@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../week2/style.css">
+
+
+
+    <title>WDD330</title>
+</head>
+<body>
+    <main>
+    <h1>Notes</h1>
+    <h3>Furher function</h3>
+
+    <h5>self-define functions</h5>
+    <p>A self-define functions runs automatically when you create it and self-invoking functions has no name. If the expression is followed by () then Function expressions will execute automatically and you can’t invoke a function declaration.</p>
+     <h5>Recursion</h5>
+    <p>
+        The act of a function calling itself, recursion is used to solve problems that contain smaller
+         sub-problems. A recursive function can receive two inputs: a base case (ends recursion) or a 
+         recursive case (resumes recursion). for example:
+    </p>
+    <p>const getMaxCallStackSize = (i) => { <br>
+        try { <br>
+          return getMaxCallStackSize(++i); <br>
+        } catch { <br> 
+          return i; <br>
+        } <br>
+
+      }; <br>
+      
+      console.log(getMaxCallStackSize(0));</p>
+
+  <h5>async function</h5>
+  <p>An async function is a function declared with the async keyword, and the await 
+      keyword is permitted within it. The async and await keywords enable asynchronous, promise-based behavior 
+      to be written in a cleaner style, avoiding the need to explicitly configure promise chains.</p>
+
+    </main>
+
+
+</body>
+</html>
