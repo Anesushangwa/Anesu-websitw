@@ -14,8 +14,14 @@ body{
 
 
 main{
-    max-width: 960px;
+    max-width: 500px;
     margin: 20px auto;
+   
+    box-shadow: 10px 10px 118px -8px rgba(209,71,71,0.51);
+-webkit-box-shadow: 10px 10px 118px -8px rgba(209,71,71,0.51);
+-moz-box-shadow: 10px 10px 118px -8px rgba(209,71,71,0.51);
+padding: 20px;
+border-radius: 5px;
     
 }
 .trans{transform: translatey(100px)  scale(1.5);}
